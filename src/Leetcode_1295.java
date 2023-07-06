@@ -11,7 +11,6 @@
 public class Leetcode_1295 {
     static int findNumbers(int[] nums) {
         int flag = 0;
-        String temp;
         for (int i = 0; i < nums.length; i++) {
             if (String.valueOf(nums[i]).length() % 2 == 0) //String.valueof()-->convert int to string & .length() gives
                 // the integer value of length of the string(i.e digits of number)
