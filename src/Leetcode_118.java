@@ -5,7 +5,7 @@ import java.util.List;
 
 public class Leetcode_118 {
     public static void main(String[] args) {
-        int numRows=5; //no. of rows we want to generate
+        int numRows=7; //no. of rows we want to generate
         System.out.println(Arrays.asList(generate(numRows))); //prints the output
     }
     public static List<List<Integer>> generate(int numRows) {
