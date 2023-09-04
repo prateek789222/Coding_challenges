@@ -1,3 +1,5 @@
+package BasicNumQs;
+
 public class Leetcode_509 {
     public static void main(String[] args) {
         System.out.println(fibo(10));

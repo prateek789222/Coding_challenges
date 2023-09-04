@@ -1,3 +1,5 @@
+package BasicNumQs;
+
 public class Leetcode_342 {
     public static boolean isPowerOfFour(int n) {
         if(n==0)

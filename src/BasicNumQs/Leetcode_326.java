@@ -1,3 +1,5 @@
+package BasicNumQs;
+
 public class Leetcode_326 {
     public static boolean isPowerOfThree(int n) {
         if(n==0)

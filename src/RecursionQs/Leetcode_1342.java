@@ -1,3 +1,5 @@
+package RecursionQs;
+
 public class Leetcode_1342 {
     public static int numberOfSteps(int num) {
         return helper(num,0);

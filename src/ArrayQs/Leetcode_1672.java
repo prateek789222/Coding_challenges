@@ -1,4 +1,4 @@
-//https://leetcode.com/problems/richest-customer-wealth/description/
+package ArrayQs;//https://leetcode.com/problems/richest-customer-wealth/description/
 
 public class Leetcode_1672 {
     public static int maximumWealth(int[][] a) {

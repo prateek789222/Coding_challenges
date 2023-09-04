@@ -1,3 +1,5 @@
+package ArrayQs;
+
 //https://leetcode.com/problems/find-smallest-letter-greater-than-target/description/
 //using binary search. Same like returning ceiling value of an array
 public class Leetcode_744 {

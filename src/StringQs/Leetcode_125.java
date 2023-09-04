@@ -1,3 +1,5 @@
+package StringQs;
+
 public class Leetcode_125 {
     public static void main(String[] args) {
         String s="A man, a plan, a canal: Panama";

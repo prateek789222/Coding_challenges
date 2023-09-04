@@ -1,4 +1,4 @@
-//https://leetcode.com/problems/pascals-triangle/description/
+package ArrayQs;//https://leetcode.com/problems/pascals-triangle/description/
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
