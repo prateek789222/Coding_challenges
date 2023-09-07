@@ -1,6 +1,30 @@
 package LinkedListQs;
 
-public class Leetcode_141 {
+
+class Ll3{
+    ListNode head;
+    public void add(int val){
+        ListNode node = new ListNode(val);
+        if(head == null){
+            head = node;
+            return;
+        }
+        ListNode temp = head;
+        while(temp.next != null){
+            temp = temp.next;
+        }
+        temp.next =node;
+    }
+
+    public void display(){
+        ListNode temp = head;
+        while(temp!=null){
+            System.out.print(temp.val + " -> ");
+            temp = temp.next;
+        }
+        System.out.println("null");
+    }
+
     public boolean hasCycle(ListNode head) {
         ListNode fast = head;
         ListNode slow = head;
@@ -14,7 +38,7 @@ public class Leetcode_141 {
         }
         return false;
     }
-    class ListNode {
+    static class ListNode {
       int val;
       ListNode next;
       ListNode(int x) {
@@ -23,3 +47,16 @@ public class Leetcode_141 {
       }
   }
 }
+public class Leetcode_141 {
+    public static void main(String[] args) {
+        Ll3 list = new Ll3();
+        list.add(4);
+        list.add(7);
+        list.add(2);
+        list.add(9);
+
+        list.display();
+        System.out.println(list.hasCycle(list.head));
+    }
+}
+
